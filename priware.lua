@@ -1,6 +1,9 @@
---omg priware open source :OOOOOOOOOOO
+--omg corehub open source :OOOOOOOOOOO
 --before you spam my discord saying "it doesnt work" check your game bruv the correct game is https://web.roblox.com/games/155615604/Prison-Life-Cars-fixed
-			local Players = game:GetService("Players"):GetPlayers()
+
+setclipboard("https://discord.com/invite/24BM6Mh9hA")
+if game.PlaceId == 155615604 then
+    			local Players = game:GetService("Players"):GetPlayers()
 
 local PlayerCount = #Players -- # means number/length of ......
 
@@ -14,8 +17,6 @@ local PlayerCount = #Players -- # means number/length of ......
 
 local start = tick()
 
-setclipboard("https://discord.com/invite/24BM6Mh9hA")
-if game.PlaceId == 155615604 then
         local player = game.Players.LocalPlayer
         if player then
         game.StarterGui:SetCore(
@@ -45,7 +46,7 @@ if game.PlaceId == 155615604 then
          )
           local Library =
          loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-         local Window = Library.CreateLib("PriWare - V1.20 | Public - Hydro made this ", colors)
+         local Window = Library.CreateLib("CoreHub - V1 | Public", colors)
 
           local Tab = Window:NewTab("Main")
          local MainSection = Tab:NewSection("main i guess")
@@ -70,7 +71,9 @@ end)
 
                   local Credits = Window:NewTab("Credits")
          local CreditsSection = Credits:NewSection("Credits")
-         CreditsSection:NewLabel("Scripts Made By: HydroWasntFound#3377")
+         CreditsSection:NewLabel("Most Scripts Made By: core#3081")
+         CreditsSection:NewLabel("Some Scripts Made By: !wanL17#0303")
+         CreditsSection:NewLabel("One Script Made By: Splash#4560")
          CreditsSection:NewLabel("Credits to Zepsyy#2173 for inspiration. Really cool.")
          CreditsSection:NewLabel("UI Library: Kavo UI")
          CreditsSection:NewLabel("UI Library Made by: xHeptc")
